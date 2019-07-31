@@ -1,0 +1,17 @@
+{
+	"name": "EQUDB_OnPremise",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "EQUDB available on-premise",
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=DESKTOP-20C05S0\\\\SQLEXPRESS;initial catalog=eQUDB;user id=adminuser",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJjMGU5MmMyNy05NTEzLTRmZmQtOTMyNS04YjhiZjBlY2Q0N2IiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "PersonalLaptopIR",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
