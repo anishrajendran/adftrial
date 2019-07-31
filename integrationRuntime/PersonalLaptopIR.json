@@ -1,0 +1,7 @@
+{
+	"name": "PersonalLaptopIR",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "IR in my personal laptop"
+	}
+}
